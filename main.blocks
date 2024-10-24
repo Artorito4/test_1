@@ -1,7 +1,1 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="RadioMessage" id="b}N2Q]]vRr[MJ{MA_7Kw">0message1</variable></variables><block type="pxt-on-start" id="/2r40Q4e4o^:!c`f~!sK" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="*~8)?xjV4w-7?4nc=3ny"><field name="LEDS">`
-        . # . # . 
-        # . # . # 
-        . . . . . 
-        # . . . # 
-        . # # # .
-        `</field></block></statement></block><block type="device_forever" id="N|p`eX$}!!sA6g@v7b33" x="214" y="0"></block><block type="serial_redirect_to_usb" id="rMJ=VNpX#9bpNGY5K{S#" disabled-reasons="ORPHANED_BLOCK,MANUALLY_DISABLED" x="-196" y="592"></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="RadioMessage" id="b}N2Q]]vRr[MJ{MA_7Kw">0message1</variable></variables><block type="device_forever" id="N|p`eX$}!!sA6g@v7b33" x="214" y="0"></block><block type="pxt-on-start" id="/2r40Q4e4o^:!c`f~!sK" x="225" y="132"></block><block type="device_button_event" id="=7o*2NFnFJWv6pztAsG;" x="-103" y="382"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="basic_show_icon" id="pHeb:Kr-#K=B~`Vt$$Io"><field name="i">IconNames.Ghost</field><next><block type="music_playable_play" id="-0Bt@e.M{f9{.dl[9-5f"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="soundExpression_builtinPlayableSoundEffect" id="Th$mF9x-Sce2m2wInF|r"><field name="soundExpression">soundExpression.giggle</field></shadow></value></block></next></block></statement></block><block type="serial_redirect_to_usb" id="rMJ=VNpX#9bpNGY5K{S#" disabled-reasons="ORPHANED_BLOCK,MANUALLY_DISABLED" x="-130" y="669"></block></xml>
